@@ -51,7 +51,7 @@ const slideOptions = {
     style: (feature) => {
       return {
         color: '#496a84',
-        weight: 1,
+        weight: 2,
         opacity:0.6,
         fillColor: 'white', 
         fillOpacity: 0,
@@ -98,12 +98,12 @@ deck.preloadFeatureCollections();
 deck.syncMapToCurrentSlide();
 
 // slides from title
-let currentLayer = null; // Track active GeoJSON layer
+let currentLayer = null; 
 
 function clearMapLayer() {
   if (currentLayer) {
-    map.removeLayer(currentLayer); // Remove previous layer
-    currentLayer = null; // Reset the currentLayer variable
+    map.removeLayer(currentLayer); 
+    currentLayer = null; 
   }
 }
 
