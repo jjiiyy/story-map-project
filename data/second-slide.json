@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [12.590, 55.705, 12.600, 55.710],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.595868655607843, 55.70729661147649]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Århusgade Quarter",
+        "style": {
+          "color": "#526e84",
+          "weight": 1.0,
+          "fillColor": "#ffcc00",
+          "fillOpacity": 0.1
+        }
+      }
+    }
+  ]
+}

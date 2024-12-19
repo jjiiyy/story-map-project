@@ -1,0 +1,60 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "label": "Århusgade Quarter",
+          "image": "images/Image1_ÅrhusgadeQuarter.webp"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.595686, 55.706117]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "label": "Carlsberg",
+          "image": "images/carlsberg.webp"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.528434, 55.666104]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "label": "Grønttorvet",
+          "image": "images/gronttorvet.webp"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.504856, 55.664775]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "label": "Sluseholmen",
+          "image": "images/sluseholmen.webp"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.553865, 55.645554]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "label": "Kalvebod Quarter",
+          "image": "images/kalvebod.webp"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.566984, 55.665979]
+        }
+      }
+    ]
+  }

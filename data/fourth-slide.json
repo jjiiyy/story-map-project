@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "bbox": [12.500, 55.660, 12.510, 55.670],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.504856, 55.664775]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "label": "Grønttorvet",
+        "style": {
+          "color": "#526e84",
+          "weight": 1.0,
+          "fillColor": "#ffcc00",
+          "fillOpacity": 0.1
+        }
+      }
+    }
+  ]
+}
