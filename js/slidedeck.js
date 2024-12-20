@@ -20,6 +20,7 @@ class SlideDeck {
     this.currentSlideIndex = 0;
   }
 
+
   /**
    * ### updateDataLayer
    *
@@ -45,6 +46,7 @@ class SlideDeck {
         }
       },
     };
+
 
     const geoJsonLayer = L.geoJSON(data, { ...defaultOptions, ...options })
       .addTo(this.dataLayer);
