@@ -15,7 +15,6 @@ class SlideDeck {
     this.slides = slides;
     this.map = map;
     this.slideOptions = slideOptions;
-
     this.dataLayer = L.layerGroup().addTo(map);
     this.currentSlideIndex = 0;
   }
@@ -45,8 +44,8 @@ class SlideDeck {
           layer.bindTooltip(feature.properties.NAME);
         }
       },
-    };
 
+    };
 
     const geoJsonLayer = L.geoJSON(data, { ...defaultOptions, ...options })
       .addTo(this.dataLayer);
