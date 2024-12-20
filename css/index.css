@@ -1,3 +1,4 @@
+/* stylelint-disable font-family-name-quotes */
 body {
   margin: 0;
   border-width: 0;
@@ -33,7 +34,7 @@ body {
   position: absolute;
   bottom: 100px;
   left: 40px;
-  background-color: rgba(0, 0, 0, 0.46); 
+  background-color: rgba(0 0 0 / 50%); 
   padding: 15px;
   color: white; 
   max-width: 600px;
